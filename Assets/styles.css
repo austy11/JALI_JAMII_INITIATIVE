@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+}
+body{
+    width: 100%;
+}
+.tile1{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(46, 198, 135);
+}
+.namecotainer{
+   
+    min-width: 480px
+}
+.orgname{
+    padding-top: 5%;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+}
+.orgtag{
+    font-size: small;
+    text-align: center;
+    font-weight: 100;
+}
+.intro{
+    width: 100%;
+    background-color: blueviolet;
+    min-height: 600px;
+    padding: 50px;
+
+}
+.introContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.imagearea{
+    width: 45%;
+    background-color: white;
+    height: 600px;
+
+}
+.textarea{
+    width: 50%;
+    background-color: white;
+    height: 600px;
+}
+fieldset{
+    width: 90%;
+    margin: 5%;
+    height: 90%;
+    border: 20px solid yellow;
+    border-radius: 25px;
+    item-align: center;
+}
+legend{
+    color: green;
+    font-size: larger;
+    font-weight: 700;
+}
+.btn1{
+    padding: 20px;
+}
+.socials{
+background-color: black;
+min-height: 100px;
+padding-left: 40%;
+padding-top: 40px;
+color: beige;
+}
