@@ -1,6 +1,6 @@
 # GROUP PROJECT | JALI JAMII INITIATIVE
 
-_Authors: Steve Austin, Stella Mbao Omar Mahat, & Guyo Mamo_
+_Authors: Steve Austin, Stellah Mbao, Omar Mahat, & Guyo Mamo
 
 _V1.0.0_
 
