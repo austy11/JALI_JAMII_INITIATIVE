@@ -1,9 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+    max-height: 100%;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    height: auto;
+    margin: 0;
+}
+@media  only screen and (max-width: 1500px) {
+    .introContainer{
+        background-image: url(/Assets/images/World-Hunger.jpg);
+        display: block;
+        font-size: 12px;
+    }
+    .imagearea{
+        display: none;
+    }
+    .textarea{
+        width: 50%;
+    }
+    
 }
 body{
     width: 100%;
@@ -18,10 +31,10 @@ body{
     margi
 }
 .orgname{
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 50px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: #00BBC9;
 }
 .orgtag{
@@ -36,8 +49,7 @@ body{
     width: 100%;
     background-color: #202022;
     min-height: 600px;
-    padding: 50px;
-
+    padding: 20px;
 }
 .introContainer{
     display: flex;
@@ -47,20 +59,20 @@ body{
     width: 45%;
     background-color: white;
     height: 600px;
+    background-image: url(/Assets/images/World-Hunger.jpg);
+    border-radius: 15px;
 
 }
 .textarea{
     width: 50%;
     /* background-color: black; */
     height: 600px;
-    color: white;
-    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
     
 }
 fieldset{
     width: 90%;
-    margin: 5%;
-    height: 90%;
+    height: 100%;
     border: 20px solid grey;
     border-radius: 25px;
     item-align: center;
@@ -70,16 +82,25 @@ legend{
     font-size: larger;
     font-weight: 700;
 }
-.us{
+.orgcolour{
     color: #00BBC9;
 
 }
+.abouttext{
+    padding: 20px;
+    font-size: 22px;
+}
 .btn1{
-    height: 40px;
     font-size: x-large;
-    float: right;
-    background-color: #00BBC9; 
-    border-radius: 10px;
+    width: fit-content;
+    float: center;
+    background-color: #00BBC9;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 20px;
+    position: fixe;
 }
 
 .socials{
