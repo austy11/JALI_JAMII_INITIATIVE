@@ -9,47 +9,55 @@
 .banner{
     width: 50%;
     float: center;
-    border: 1px solid black;
-    margin-top: 50px;
-    font: bold 100% "Lucida Grande", Arial, sans-serif;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: green;
     padding: 20px;
     text-align: center;
 
 }
 .formwrapper{
-    width: 50%;
-    margin-top: 50px;
-    background-color: aqua;
+    width: 60%;
+    margin-top: 0px;
+    background-color: rgb(0, 255, 255, 0.3);
     min-height: 300px;
     align-items: center;
     padding: 20px;
-  
+    border-radius: 15px;
 }
 .formselect{
     padding: 20px;
     width: fit-content;
 }
 .login{
-    position: relative;
-    width: fit-content;
-    padding: 20px;
+    width: 20px;
+    font-weight: 700;
+    padding: 5px;
+    font-size: x-large;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 0px;
 }
 .input{
     margin: 10px;
-}
-.signup{
-    width: 25%;
-    display: inline;
-    
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Times New Roman';
 }
 form{
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 #log{
+    width: 200px;
     background-color: #EC4067;
     color: white;
     border: none;
     padding: 10px;
     font-size: 15px;
     border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }

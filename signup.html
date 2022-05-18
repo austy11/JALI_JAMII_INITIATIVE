@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/signup.css">
     <title>LOG-IN</title>
@@ -17,28 +15,24 @@
         </div>
         <div class="formwrapper">
             <div class="formselect">
-                <div class="login"><button id="log">LOG-IN  BELOW</button></div>
-                    <div class="loginform"></div>
+                <div class="login">LOG-IN</div>
                 <form name="login" id="login" method="POST" action="">
                     <div class="input">
                         <label for="userid">Username</label>
-                        <input type="text" id="userid" name="useid">
+                        <input type="text" id="userid" name="useid" placeholder="username">
                     </div>
                     <div class="input">
                         <label for="password">Passphrase</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" placeholder="********">
                     </div>
                     <div class="input">
-                        <input type="submit" id="log" name="btnlog" value="Access">
-
+                        <button type="submit" id="log" onclick=""><a href="">Get Strated</a></button>
                     </div>
                 </form>
-                <div class="signup">Dont have an account?<button id="log">SIGN-UP</button></div>
-                    <div class="signinform"></div>
+            <div class="signup">Dont have an account? <br>
+                <button id="log"><a href="./signup2.html">SIGN-UP</a> </button></div>
             </div>
         </div> 
     </center>
-    
-
 </body>
 </html>
