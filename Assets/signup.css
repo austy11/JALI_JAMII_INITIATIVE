@@ -6,6 +6,7 @@
     height: auto;
     width: 100%;
 }
+
 .banner{
     width: 50%;
     float: center;
@@ -15,8 +16,8 @@
     color: green;
     padding: 20px;
     text-align: center;
-
 }
+
 .formwrapper{
     width: 60%;
     margin-top: 0px;
