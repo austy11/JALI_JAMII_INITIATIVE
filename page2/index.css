@@ -1,19 +1,19 @@
 *{
-    background-color: white;
-    color: #C7B72E;
-    padding: 20px;
-   
+    background-color: whitesmoke;
 }
+
 body {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .container{
-    width: 70%;
-    height: 70%;
-    background-color: black;
-    
+    width: 40%;
+    height: 50%;
+    background-color: #c7b72e;
+}
+.createAccount{
+    align-content: center;
 
 }
 form{
