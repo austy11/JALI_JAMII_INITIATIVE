@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+.banner{
+    width: 60%;
+    margin: 2vw 0;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #0C0A66; /*come for it*/
+}
+
+.formwrapper{
+    width: 60%;
+    background-color: #86DFEB; /*come for it*/
+    min-height: 300px;
+    border-radius: 15px;
+    padding: 0vw 20vw 2vw;
+}
+
+.log {
+    padding: 2vw 0;
+    font-size: 2vw;
+}
+
+.login{
+    width: 20px;
+    padding: 5px;
+    font-size: x-large;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+.input{
+    padding-bottom: 2vw;
+}
+
+.input input{
+    height: 3vw;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+
+
+#log{
+    width: 100%;
+    background-color: #9747FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
