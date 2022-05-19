@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/sign-styles.css">
+    <title>LOG-IN</title>
+</head>
+<body>
+    <center>
+        <section class="container1">
+
+            <div class="banner">JALI JAMII PORTAL</div>
+
+            <div class="formwrapper">
+                <div class="log">Log into your account</div>
+                <form name="login" id="login" method="POST" action="">
+                    <div class="input">
+                        <label for="userid">Username/Email:</label> 
+                        <!-- Added /Email: -->
+                        <input type="text" id="userid" name="userid" placeholder="Username/Email:">
+                    </div>
+                    <div class="input">
+                        <label for="Password">Password:</label>
+                        <input type="Password" id="Password" name="Password" placeholder="password:">
+                    </div>
+                    <div class="input">
+                        <button type="submit" id="log" onclick=""><a href="">Get Started</a></button>
+                    </div>
+                </form>
+                <div class="signup">Don't have an account? <br><br>
+                    <button id="log"><a href="signup.html">SIGN-UP</a> </button>
+                </div>
+            </div> 
+        </section>
+    </center>
+</body>
+</html>
