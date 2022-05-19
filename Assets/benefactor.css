@@ -10,6 +10,7 @@ body {
 
 button {
     font-size: 1.2vw;
+    font-weight: bold;
     border-radius: .8vw;
     background-color: #9747FF;
     color: white;
@@ -19,29 +20,70 @@ button {
 .title-name {
     display: flex;
     justify-content: space-between;
-    margin: 5vw;
+    height: 50vh;
+    background-image: url('../images/concept-feeding-receiving-food-poor-volunteers-190921224~2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .head1{
-    color: #0C0A66;
+    font-size: 4vw;
+    color: #86DFEB;
+    margin: 2vw 5vw;
+
+}
+
+.titlebtn{
+    margin: 2vw 5vw;
+    color: white;
+    font-weight: bold;
 }
 
 .title-name button{
     height: 3vw;
     padding: 0 2vw;
+    width: 100%;
+    margin-top: 1vw;
+    background-color: #9747FF;
+
+
 }
 
 
 .body-wrapper{
     margin: 0 5vw;
-
 }
 
-.body-wrapper > div{
 
+.vertscro{
     margin-top: 2vw;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-between;
+    overflow-y: scroll;
 }
 
+
+.media {
+    margin-bottom: 1vw;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.media p{
+    margin: 0.5vw 6vw;
+}
+
+.media:hover{
+    /* border: 1px solid lightgray; */
+    box-shadow: 1px 1px 6px;
+}
+
+/* 
 .first-div {
     position: relative;
     width: 100%;
@@ -61,6 +103,54 @@ button {
     height: 100%;
 }
 
+.scroller {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 75vh;
+    background-color: white;
+    padding: 1vw;
+    position: relative;
+}
+
+.scroller > div {
+    background-color: #FDEAEA;
+    position: relative;
+}
+
+.scro1 {
+    width: 35%;
+}
+
+.scro2 {
+    width: 63%;
+}
+
+.imgscroll2{
+    padding: 1vw;
+}
+
+.imgscroll2 > div {
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.smallsec{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
 .second-div {
     position: relative;
     width: 100%;
@@ -69,6 +159,10 @@ button {
     padding: 1vw;
 
 }
+
+
+
+
 
 .paragraph {
     font-weight: bold;
@@ -156,7 +250,11 @@ button {
 
 .desription-side button{
     height: 3vw;
-}
+} */
+
+
+
+
 
 .btn0 {
     margin: 1vw 0;
