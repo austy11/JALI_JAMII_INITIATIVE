@@ -15,20 +15,20 @@ body{
 }
 .tile1{
     width: 100%;
-    background-color: #202022;
+    background-color: black;
 }
 .orgname{
     padding-top: 2%;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-weight: bold;
     color: #00BBC9;
 }
 .orgtag{
-    font-size: large;
+    font-size: x-large;
     text-align: center;
     font-weight: 100;
-    color: #00747C; 
+    color: #00BBC9; 
     font-style: italic;
     margin-top: 10px;
 }
@@ -76,6 +76,8 @@ legend{
 }
 .orgcolour{
     color: #00BBC9;
+    font-weight: 700;
+    font-size: x-large;
 
 }
 .abouttext{
@@ -96,7 +98,8 @@ legend{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: large;
 }
 .socials{
 background-color: black;
@@ -109,6 +112,7 @@ color: beige;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color:black;
 }
 #partners{
     margin: 10px;
@@ -116,3 +120,12 @@ color: beige;
 #socialmedia{
     margin: 10px;
 }
+.sociallinks{
+    color: #00BBC9;
+    font-size: large;
+}
+
+
+
+
+
