@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
-
+body{
+    background-color: teal;
+}
 button {
     font-size: 1.2vw;
     border-radius: 5px;
@@ -12,24 +14,57 @@ button {
     color: white;
     border: none;
 }
-
 .title-name {
+    background-image: url(../images/aaron-doucett-liOAS02GnfY-unsplash~2.jpg);
+    height: 200px;
     display: flex;
     justify-content: space-between;
     font-size: x-large;
     font-weight: 700;
-    margin: 10px;
+    padding: 20px;
 }
-
 .head1{
-    color: #0C0A66;
+    color: white;
 }
-
 .title-name button{
     height: 3vw;
     padding: 0 2vw;
 }
-
+.catcontainer{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    height: 400px;
+    overflow-y: scroll;  
+}
+.catalogue{
+    padding-right: 20px;
+}
+.table{
+    margin-top: -9px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 2px solid grey;   
+}
+th{
+    height: 70px;
+    width: 360px;
+    border-bottom: 2px solid grey;
+    text-align: left;
+    text-indent: 15px;
+}
+td{
+    height: 50px;
+    text-align: center;
+}
+.tdm{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -37,7 +72,6 @@ footer{
     background-color: black;
     width: 100%;
 }
-
 .socials{
     background-color: black;
     padding-top: 40px;
