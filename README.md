@@ -29,7 +29,7 @@ To solve the aforeseen food wastage, and translatively ensure its accessibility 
 The food order will then be logged in and an order receipt sent to the beneficiary’s phone and food pick up or delivery arranged thereafter.
 
 ---
-[Licence](...) & Copywrite
+[Licence](...) & Copyright
 --
 
 #### ©Moringa School 2022
