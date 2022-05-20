@@ -40,8 +40,12 @@ input{
     height: 500px;
     display: flex;
 }
+#give{
+    background-color: teal;
+    font-size: 20px;
+}
 .listings{
-    width: 100%;
+    width: 90%;
     margin: 2px;
     background-color:
 }
