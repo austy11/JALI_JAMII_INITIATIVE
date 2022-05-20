@@ -23,6 +23,10 @@ button {
     font-weight: 700;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .head1{
     color: white;
 }
