@@ -44,7 +44,7 @@ body{
 .imagearea{
     width: 45%;
     height: 500px;
-    background-image: url(/Assets/images/World-Hunger.jpg);
+    background-image: url(../images/World-Hunger.jpg);
     border-radius: 15px;
     position: relative;
 }
